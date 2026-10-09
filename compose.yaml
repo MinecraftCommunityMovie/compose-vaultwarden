@@ -21,7 +21,7 @@ services:
       - SMTP_HOST=mail.projectbeacon.world
       - SMTP_FROM=noreply@projectbeacon.world
       - SMTP_FROM_NAME=Vaultwarden
-      - SMTP_USERNAME=noreply
+      - SMTP_USERNAME=noreply@projectbeacon.world
       - SMTP_PASSWORD_FILE=/run/secrets/smtp_password
       - SMTP_TIMEOUT=15
       - SMTP_SECURITY=starttls
